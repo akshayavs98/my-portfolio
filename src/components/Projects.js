@@ -11,11 +11,7 @@ return (
 		<h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
 			Apps I've Built
 		</h1>
-		<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-			facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-			fuga dolore.
-		</p>
+		
 		</div>
 		<div className="flex flex-wrap -m-4">
 		{projects.map((project) => (
@@ -34,7 +30,7 @@ return (
 				<h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
 					{project.subtitle}
 				</h2>
-				<h1 className="title-font text-lg font-medium text-white mb-3">
+				<h1 className="title-font text-lg font-medium text-white mb-8">
 					{project.title}
 				</h1>
 				<p className="leading-relaxed">{project.description}</p>
